@@ -1,5 +1,5 @@
 declare module "domino" {
   function createDOMImplementation(): DOMImplementation;
-  function createDocument(html?: string, force?: boolean): Document;
+  function createDocument(html?: string, force?: boolean, options?: object): Document;
   function createWindow(html?: string, address?: string): Window;
 }
